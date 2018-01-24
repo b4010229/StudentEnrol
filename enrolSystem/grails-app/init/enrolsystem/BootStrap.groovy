@@ -68,6 +68,14 @@ lecturer:'Laura Jones',
 course:'Computing',
 description:'Come get a free degree').save()
 
+def laura=new Lecturer(
+fullName:'Laura Jones',
+post:'PhD',
+subject:'Computing',
+lecturerEmail:'laurajones@shu.ac.uk',
+office:'91201',
+bio:'Web Development, Programming').save()
+
 
 
     }
