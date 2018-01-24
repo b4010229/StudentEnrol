@@ -50,7 +50,7 @@ username:'patrick91',
 password:'patts1995',
 course:'english').save()
 
-def patrick=new Student(
+def andrew=new Student(
 name:'Andrew Graham',
 studentID:'123457',
 dob:new Date('13/06/1998'),
@@ -59,6 +59,15 @@ email:'andrewgraham@hotmail.co.uk',
 username:'digusbickus',
 password:'password',
 course:'pasties').save()
+
+def projects=new Module(
+title:'Professional Computing Projects',
+code:'PCP89',
+credits:60,
+lecturer:'Laura Jones',
+course:'Computing',
+description:'Come get a free degree').save()
+
 
 
     }
