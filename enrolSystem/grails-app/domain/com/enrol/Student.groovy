@@ -11,6 +11,12 @@ String username
 String password
 String course
 
+String toString(){ //declares method toString
+return "$name, $studentID, $course" //merges variables as groovy strings
+
+}
+
+
     static constraints = {
 
 name blank:false, nullable:false

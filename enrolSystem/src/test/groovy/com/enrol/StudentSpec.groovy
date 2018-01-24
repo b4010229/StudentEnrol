@@ -11,8 +11,21 @@ class StudentSpec extends Specification implements DomainUnitTest<Student> {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void mergeData() {
+        when: "A Student has name, ID and course"
+
+def janet=new Student(
+name:'Janet Taylor',
+studentID:'45907812',
+dob:new Date('14/06/1998'),
+isFundingAvailable:'true',
+email:'janettaylor@hotmail.co.uk',
+username:'janetthelegend',
+password:'password',
+course:'BSc Hon Engineering').save()
+
+then:"the toString method will merge them."
+
+janet.toString()=='Janet Taylor, 45907812, BSc Hon Engineering'
     }
 }

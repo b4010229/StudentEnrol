@@ -3,25 +3,25 @@ package com.enrol
 class Course {
 
 String department
-
 String title
-
 String leader
-
 String code
-
 String studyMode
-
 Date startDate
-
 Date endDate
-
 String description
-
 int numberOfStudents
-
 Double tuitionFees
 
+Boolean isItRunning
+double fees
+
+
+
+double calculateFees(){
+4*fees
+
+}
     static constraints = {
 
 title blank:false, nullable:false
