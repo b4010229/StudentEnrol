@@ -40,6 +40,27 @@ studyMode:'Fulltime',
 tuitionFees:9000.60,
 description:'i dnt read 2 good').save()
 
+def patrick=new Student(
+name:'Patrick Stewart',
+studentID:'123456',
+dob:new Date('02/28/1995'),
+isFundingAvailable:'true',
+email:'paddystewart@aol.co.uk',
+username:'patrick91',
+password:'patts1995',
+course:'english').save()
+
+def patrick=new Student(
+name:'Andrew Graham',
+studentID:'123457',
+dob:new Date('13/06/1998'),
+isFundingAvailable:'true',
+email:'andrewgraham@hotmail.co.uk',
+username:'digusbickus',
+password:'password',
+course:'pasties').save()
+
+
     }
     def destroy = {
 greggs     }
